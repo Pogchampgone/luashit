@@ -1,12 +1,16 @@
 local a = game.PlaceId
+print("loading...")
 if a == 4906760764 then
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/Proj.lua')))()
+print("Finished Loading")
 else
     if a == 6094061470 then
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/ArcadeEmpire.lua')))()
+print("Finished Loading")
         else
             if a == 537413528 then
 loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua",true))()
+print("Finished Loading")
 else
 print("Game Not Supported")
     end
