@@ -5,8 +5,11 @@ else
     if a == 6094061470 then
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/ArcadeEmpire.lua')))()
         else
-            print('Game Not Supported')
+            if a == 537413528 then
+loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua",true))()
+else
     end
+end
 end
 
 --tuen into a hub in the morening 
