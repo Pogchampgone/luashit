@@ -8,6 +8,7 @@ else
             if a == 537413528 then
 loadstring(game:HttpGet("https://dirtgui.xyz/ImageLoader.lua",true))()
 else
+print("Game Not Supported")
     end
 end
 end
