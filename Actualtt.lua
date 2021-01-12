@@ -16,7 +16,12 @@ else
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pogchampgone/luashit/main/Doomspire.lua",true))()
         print("Finished Loading")
     else
-        print("Game Not Supported")
+if a == 155615604  then --Prison Life
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/PrisonLife.lua')))()   
+print("Finished Loading")
+else
+  print("Game Not Supported")
+end
 end
 end
 end
