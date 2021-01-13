@@ -44,7 +44,7 @@ end)
 b:Button("TP To Blue",function()
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1, 23, 130))
 end)
-b:Button("TP To Blue",function()
+b:Button("Infinite Yield",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
