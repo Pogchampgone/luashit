@@ -20,6 +20,10 @@ if a == 155615604  then --Prison Life
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/PrisonLife.lua')))()   
 print("Finished Loading")
 else
+if a == 5977280685  then --Ninja Legends 2
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/NinjaLegends2.lua')))()   
+print("Finished Loading")
+else
   print("Game Not Supported")
 end
 end
