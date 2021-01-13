@@ -53,7 +53,7 @@ spawn(function()
 while wait() do
     if AutoSellEnabled == true then
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-93, 8631, 35))
-wait(5)
+wait(0.5)
 end
 end
 end)
