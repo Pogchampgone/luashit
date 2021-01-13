@@ -44,9 +44,9 @@ end)
 b:Button("TP To Blue",function()
     game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1, 23, 130))
 end)
---130, 65, -0
-
-
+b:Button("TP To Blue",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 b:Label("By Pastebin#9785",{
     TextSize = 25; -- Self Explaining
