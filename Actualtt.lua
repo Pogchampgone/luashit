@@ -1,4 +1,5 @@
 local a = game.PlaceId
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/mmmh.lua')))()
 print("loading...")
 if a == 4906760764 then --Jojo Game
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/Proj.lua')))()
