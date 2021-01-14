@@ -28,7 +28,7 @@ if a == 662417684 then --Lucky Blocks
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/LuckyBlockBattlegrounds.lua')))()
 print("Finished Loading")
  else
-if a == 5414779423 then 
+if a == 5414779423 then --Science Simulator
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/ScienceSim.lua')))()
 else
   print("Game Not Supported")
