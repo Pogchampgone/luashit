@@ -2,7 +2,7 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Aika
 
 local w = library:CreateWindow("Crazy Hub") -- Creates the window
 
-local b = w:CreateFolder("Doomsipre") -- Creates the folder(U will put here your buttons,etc)
+local b = w:CreateFolder("Doomspire") -- Creates the folder(U will put here your buttons,etc)
 
 b:Label("Scripts",{
     TextSize = 25; -- Self Explaining
