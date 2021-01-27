@@ -32,6 +32,9 @@ print("Finished Loading")
 if a == 5414779423 then --Science Simulator
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/ScienceSim.lua')))()
 else
+if a == 5932564241 then --Adventure Simulator
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/AdventureSim.lua')))()
+else
   print("Game Not Supported")
 end
 end
