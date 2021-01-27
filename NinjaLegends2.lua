@@ -7,6 +7,7 @@ _G.SliderColor = Color3.fromRGB(0,0,255)
 local AutoEnabled = false
 local AutoSellEnabled = false
 local AutoBuyBladesEnabled = false
+local AutoKillBossEnabled = false
 
 local library = loadstring(game:HttpGet(('https://pastebin.com/raw/FsJak6AT')))() -- It's obfuscated, I won't let you see my ugly coding skills. =)
 
@@ -20,6 +21,11 @@ b:Label("Scripts",Color3.fromRGB(38,38,38),Color3.fromRGB(0,216,111)) --BgColor,
 b:Toggle("Auto Elements",function(bool)
     shared.toggle = bool
 AutoEnabled = bool
+end)
+
+b:Toggle("Auto Kill Boss",function(bool)
+    shared.toggle = bool
+AutoKillBossEnabled = bool
 end)
 
 b:Toggle("Auto Sell",function(bool)
@@ -53,6 +59,22 @@ spawn(function()
 while wait() do
     if AutoSellEnabled == true then
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-93, 8631, 35))
+wait(3)
+end
+end
+end)
+
+spawn(function()
+while wait() do
+    if AutoKillBossEnabled == true then
+while wait(0.01) do
+for i,v in pairs(game.Workspace.spawnedBosses:GetChildren()) do
+ print(v)
+ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+local ohString1 = "swingBlade"
+game:GetService("Players").LocalPlayer.saberEvent:FireServer(ohString1)
+end
+end
 wait(3)
 end
 end
