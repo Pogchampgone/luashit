@@ -36,7 +36,7 @@ if a == 5932564241 then --Adventure Simulator
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/AdventureSim.lua')))()
 else
 if a == 189707  then --Natural Disaster Survival
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/Disaster.lua')))()   
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Pogchampgone/luashit/main/Distaster.lua')))()   
 print("Finished Loading")
 else
 print("Game Not Supported")
